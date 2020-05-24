@@ -15,8 +15,8 @@ provider:
     STAGE: ${self:provider.stage}
 
 functions:
-  nextjs:
-    handler: handler.nextjs
+  index:
+    handler: index.handler
     events:
       - http: ANY /
       - http: ANY /{proxy+}
