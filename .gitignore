@@ -4,3 +4,9 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+# Next JS build
+.next
+
+# Webpack build
+.webpack
