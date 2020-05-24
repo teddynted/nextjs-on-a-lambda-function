@@ -36,7 +36,7 @@ custom:
       - .dynamodb
 
   apigwBinary:
-    types: #list of mime-types
+    types:
       - '*/*'
 
 package:
