@@ -17,7 +17,6 @@ pipelines:
              - git remote set-url origin ${BITBUCKET_GIT_HTTP_ORIGIN}
              - npm i serverless -g
              - rm -rf .next
-             - npm rebuild node-sass
              - npm install
              - npm run build
              - sls deploy -v --stage dev
